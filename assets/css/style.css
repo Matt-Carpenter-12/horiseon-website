@@ -15,6 +15,8 @@ body {
     color: #ffffff;
 }
 
+/* .header class applies padding to the container and a different font and color */
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -100,6 +102,12 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
+.benefits-section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Take benefit-lead, benefit-brand, benefit-cost and merge into one class and apply that to the html */
 
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -198,3 +206,6 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* changed semantic elements from "div" to appropriate elements like "header" "nav" and "section". */
+/* added alt tags to all images for accessiblity. */
+/* consolidated classes on CSS sheet for optimization. */
